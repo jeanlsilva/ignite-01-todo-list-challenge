@@ -1,0 +1,47 @@
+.item {
+    background: var(--gray-600);
+    border: 1px solid var(--gray-500);
+    padding: 16px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item + .item {
+    margin-top: 12px;
+}
+
+.item >div {
+    position: relative;
+    width: 39.27px;
+}
+
+.item >p {
+    flex: 1;
+}
+
+.item svg {
+    transition: color .3s;
+    cursor: pointer;
+}
+
+.item svg:hover {
+    color: var(--red-300);
+}
+
+.item span {
+    position: absolute;
+    top: 2px;
+    width: 17.45px;
+    height: 17.45px;
+    border: 2px solid var(--blue-300);
+    border-radius: 50%;
+}
+
+.check {
+    background: var(--blue-300);
+}
+
+.completed {
+    text-decoration: line-through;
+}
