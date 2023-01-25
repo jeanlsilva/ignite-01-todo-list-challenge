@@ -1,0 +1,24 @@
+.wrapper {
+    background: var(--gray-700);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.wrapper span:first-child {
+    color: var(--blue-300);
+}
+
+.wrapper span:last-child {
+    color: var(--purple-500);
+}
+
+.wrapper img {
+    margin: .75rem .75rem 0 0;
+}
